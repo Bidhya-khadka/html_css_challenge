@@ -1,7 +1,7 @@
 body{
   margin: 20px;
-   text-transform: capitalize; /*css inheritance property */
-   text-align: center;
+  
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card{
   padding: 20px;
@@ -9,14 +9,16 @@ body{
   justify-content: space-around;
   /* center the card */
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+ margin: 0 auto;
+  color: #2b2839;
+  background-color:#ddebf8 ;
+  border-bottom:10px solid #d8cefe;
+  text-transform: capitalize;
+    /*css inheritance property */
+  text-align: center;
 
 }
-.dotted-blue-border{
-  border: 1px dotted rgb(53, 53, 235);
 
-}
 .avatar{
   width: 150px;
 }
