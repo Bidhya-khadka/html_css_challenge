@@ -1,0 +1,11 @@
+/* here flex-box container nav-wrapper is the parent element where as item class is the immediate child of the nav-wrapper(parent elament) */
+.nav-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.item{
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 8px;
+  margin-left: 8px;
+}
