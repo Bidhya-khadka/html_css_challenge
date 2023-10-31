@@ -1,0 +1,50 @@
+.main{
+
+  margin-top: 200px;
+  /* text-align: center;  works in inline-element btn with display property inline*/
+}
+/* --------------------------------- */
+/* centering elements(horizontally) with margin */
+/* 1.display:block */
+/* 2.must have width */
+/* margin-left/margin:right:auto */
+.logo-jpg {
+  width: 300px;
+  display: block;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-input{
+  width: 400px;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px splid #dfe1e5;
+  border-radius: 24px;
+  display: block;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  margin-left: 12px;
+  background-color: #dfe1e5;
+  border: none;
+  border-radius: 3px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  font-size: 14px;
+
+
+}
+/* center the button */
