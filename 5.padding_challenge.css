@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.card{
+  color: #222222;
+  background-color: lightgray;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+ padding: 20px;
+ border: 6px solid #282727;
+ border-radius: 30px;
+}
