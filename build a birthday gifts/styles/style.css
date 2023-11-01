@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+  font-family: 'Happy Monkey',cursive;
+  background-color:#a2d2ff ;
+  color: #ffffff;
+  background: linear-gradient(rgb(186, 186, 242),pink);
+  
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+#title{
+  text-transform: capitalize;
+}
+#bff-image{
+  width: 150px;
+  border-radius: 50%;
+  border: 8px solid #EFB0C9;
+  margin-bottom: 10px;
+}
+h1,h2,h3,p{
+  text-shadow: 0px opx 1px black;
+}
+#bday-age{
+  margin-bottom: 10px;
+  background-color: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
+#bday-date {
+  margin: 0;
+  background-color: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.gift-section{
+  margin-top: 50px;
+  
+}
+.gift-title{
+  margin-bottom: 10px;
+}
+
+/* gift card section starts */
+.gift-img{
+  
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(../images/gift-card.jpg);
+  background-size: cover;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+#gift-img-happy:hover{
+  background-image: url(../images/happy.gif);
+}
+#gift-img-hot:hover{
+  background-image: url(../images/happy2.gif);
+}
+#gift-img-genius:hover{
+  background-image: url(../images/genius.gif);
+}
+#gift-img-badass:hover{
+  background-image: url(../images/badass.gif);
+}
+#gift-img-cheers{
+  height: 200px;
+}
+#gift-img-cheers:hover{
+  background-image: url("../images/cheers.gif");
+
+}
+footer{
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+
+}
+#html-css-link{
+  margin-top: 10px ;
+  display: block;
+  color: white;
+}
