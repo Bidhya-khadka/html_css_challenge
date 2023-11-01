@@ -1,11 +1,15 @@
 body{
+  margin: 0;
   color: #A389D7;
   font-family: 'Orbitron', sans-serif;
-  background-image: url("../images/galaxy.gif");
-  background-size: cover;
   text-transform: capitalize;
   text-align: center;
   
+}
+#hero{
+  background-image: url("../images/galaxy.gif");
+ background-size: cover;
+ padding: 10px 0 40px 0;
 }
 #main-logo {
   width: 200px;
@@ -22,6 +26,11 @@ body{
 .call-to-action{
   border-bottom: 4px solid white;
 }
+/* here blur 4px works better in the situation where text color and the background image colors are same with keeping horizontal and vertical value 0px */
+#title{
+  text-shadow: 0px 0px 4px black;
+}
+
 
 
 /* @font face--->site 1001fonts.com-->download file and use that file link for font face */
