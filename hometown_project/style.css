@@ -1,0 +1,81 @@
+body{
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+
+}
+#hero{
+  padding: 60px;
+  background-image: url(./images/kathmandu.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  text-shadow: 0px 0px 5px black;
+
+}
+#hero-title{
+  width: 400px;
+  margin: 10px auto;
+  background-color:#AFC6DB;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
+#hero-desc{
+  width:600px;
+  margin: 20px auto;
+  background-color:#3F5F78;
+  padding: 8px ;
+  /* text-wrap: wrap; */
+}
+#section-title{
+  color:#3F5F78 ;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.section-activities{
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+.section-activities-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.section-activities-title{
+color: #09538b}
+
+.section-activities-des{
+color: #01172c;
+}
+.section-column{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+#card{
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(#AFC6DB,#3F5F78);
+  border-radius: 4px;
+  
+}
+#profile-img{
+  width: 50%;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+#card-profile-details{
+  color: #AFC6DB;
+  text-shadow: 0px 0px 4px black;
+}
+#card-title{
+  color:#0a81dd ;
+}
+
