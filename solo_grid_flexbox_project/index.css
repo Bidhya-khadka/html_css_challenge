@@ -3,24 +3,26 @@
    padding: 0;
 }
 :root{
-  --project-text-color:rgb(218, 91, 32);
+  --project-tomato-color:#D11C01;
+  --project-pinkwhite-color:#FFE5CE;
+  --project-pinkwhitefade-color:#FEA852;
+  --project-blackfade-color: #181817;;
 }
 body{
-padding: 10px;
+  height: 100vh;
+  color: var(--project-tomato-color);
+  padding: 10px;
   line-height: 1.4;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-auto-rows: auto;
-  color: var(--project-text-color);
-  text-shadow: 0px 0px 5px black;
   font-family: 'Manrope', sans-serif;
 
   
 }
 /* grid- left part start */
 #bbq-hero{
-  height: 100vh;
   background-image: url("./images/bbq-ribs-image.jpg");background-size: cover;
   background-position: center;
   display: flex;
@@ -28,20 +30,21 @@ padding: 10px;
   align-items: center;
   justify-content: space-between;
   padding: 0 0 30px;
+  text-shadow: 0 0 5px black;
 
 }
 
-.bbq-header{
+#bbq-header{
+
   width: 300px;
-  border-top:8px solid var(--project-text-color);
-  font-size: 0.8em;
+  border-top:8px solid var(--project-tomato-color);
+  font-size: 1em;
   text-transform: capitalize;
-  /* font-weight: bold; */
   letter-spacing: 2px;
 }
 
  #bbq-section{
-  color: white;
+  color: var(--project-pinkwhite-color);
   font-size: 3rem;
 
  }
@@ -53,11 +56,72 @@ padding: 10px;
   font-size: 2.7rem;
   text-transform: capitalize;
  }
-/* right-part section */
+
+
+/* _____________________right-part section_________ */
 #bbq-enquiry {
-  border: 2px solid black;
+  padding: 30px;
+  font-weight: 700;
+  color: var(--project-blackfade-color);
+  background:linear-gradient(var(--project-pinkwhite-color),var(--project-pinkwhitefade-color));
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#bbq-enquiry-title+h4{
+  color: var(--project-tomato-color);
+  text-transform: uppercase;
+  margin:5px 0 30px 0;
+}
+.bbq-enquiry-desc{
+  margin-bottom: 30px;
+  text-wrap: wrap;
+ 
+  font-size: 1.5em;
+}
+#my-form{
+  width: 75%;
+  font-size: 1.5em;
+  /* border: 2px solid gray; */
+}
+input{
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 0 25px;
+}
+input[type="submit"]{
+  background-color: var(--project-tomato-color);
+  color: var(--project-pinkwhite-color);
+  border: none;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+input[type="submit"]+p {
+  font-size: 0.8rem;
+}
+input:hover{
+  border: 5px solid var(--project-pinkwhitefade-color);
+}
+/* media queries */
+@media screen and (max-width:450px) {
+  body{
+    display: block;
+  }
+
+  #bbq-header{
+    font-size: 10px;
+  }
+    #bbq-footer{
+      font-size: 1rem;
+    }
+    #bbq-section{
+      font-size: 2rem;
+    }
+   
+  
 }
