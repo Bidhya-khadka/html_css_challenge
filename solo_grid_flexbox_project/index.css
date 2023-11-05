@@ -34,7 +34,7 @@ body{
 
 }
 
-.bbq-header{
+#bbq-header{
 
   width: 300px;
   border-top:8px solid var(--project-tomato-color);
@@ -106,4 +106,22 @@ input[type="submit"]+p {
 }
 input:hover{
   border: 5px solid var(--project-pinkwhitefade-color);
+}
+/* media queries */
+@media screen and (max-width:450px) {
+  body{
+    display: block;
+  }
+
+  #bbq-header{
+    font-size: 10px;
+  }
+    #bbq-footer{
+      font-size: 1rem;
+    }
+    #bbq-section{
+      font-size: 2rem;
+    }
+   
+  
 }
